@@ -22,7 +22,7 @@
 2. Añádelo al repositorio y realiza un commit.
 3. Sube los cambios a GitLab.
 
-# Proyecto: Moby Git 🐋📝
+# Proyecto: Moby Git (Día 1) 🐋📝
 
 1. Instalar Git y crear un repositorio local para un proyecto llamado `moby-git`.
 2. Versionar un cuaderno de bitácora que tenga tres entradas con diferentes contenidos de texto escritas en Markdown, cada una de ellas versionada con un commit diferente:

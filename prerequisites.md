@@ -13,9 +13,9 @@
   ```bash
   brew install git
   ```
-- En Windows, se puede instalar desde [git-scm.com](https://git-scm.com/download/).
+- En Windows, se puede instalar desde [git-scm.com](https://git-scm.com/downloads/).
 
-## Otros recursos
+## Otros
 
 - **Navegador Web**: Basado en Chrome (recomendado), Firefox, Edge, etc.
 - **Consola/Terminal**:
@@ -23,6 +23,6 @@
   - **Linux**: bash, zsh, etc.
   - **MacOS**: Terminal, etc.
 
-## Referencias
+## Recursos y referencias
 
 - [Install Git on Windows](https://zaycodes.medium.com/how-to-install-git-on-windows-f6031afef08c)

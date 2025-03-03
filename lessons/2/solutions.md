@@ -1,4 +1,4 @@
-# Ejercicios
+# Soluciones
 
 ## Ejercicio 1: Configuración Inicial de Git
 
