@@ -10,6 +10,8 @@ Un commit en Git es una captura del estado actual de los archivos en un reposito
 
 Se utiliza para registrar los cambios realizados en el proyecto con un mensaje descriptivo.
 
+![git full workflow](git-full-workflow.png)
+
 ### Hacer un Commit
 
 1. Agregar los archivos al área de preparación:
