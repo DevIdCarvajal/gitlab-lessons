@@ -9,9 +9,11 @@
 
 ## Ejercicio 2: Configurar un pipeline con pruebas automatizadas en Node.js
 
+*Nota: Si no trabajas habitualmente con Node.js y prefieres hacerlo con otro stack tecnológico que te sea más familiar, no dudes en hacerlo. La idea de este ejercicio es que hagas un test y veas que se lanza en el pipeline al subirlo a GitLab.*
+
 1. Asegúrate de que tu proyecto tiene `Jest` instalado (si no, instálalo con `npm install --save-dev jest`).
 2. Modifica el archivo `.gitlab-ci.yml` para ejecutar las pruebas.
-3. Crea un archivo de prueba en `__tests__/sum.test.js` con el siguiente contenido:
+3. Crea un archivo de prueba `sum.js` con el siguiente contenido:
 
    ```javascript
    function sum(a, b) {

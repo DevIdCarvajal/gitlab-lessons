@@ -40,7 +40,7 @@
      script:
        - npm test
    ```
-3. Crea un archivo de prueba en `__tests__/sum.test.js` con el siguiente contenido:
+3. Crea un archivo de prueba `sum.js` con el siguiente contenido:
 
    ```javascript
    function sum(a, b) {
