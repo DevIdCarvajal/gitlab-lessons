@@ -73,7 +73,7 @@
   git checkout feature
   ```
 
-  O la borramos:
+  O la borramos (preferentemente):
   ```
   git branch -d feature
   ```
@@ -85,6 +85,7 @@
 - En remoto:
   - `main`
   - `develop`
+  - `hotfix`
 - En local:
   - `main`
   - `develop`
@@ -119,6 +120,6 @@
 ### Secuencia de acciones
 
 - Las mismas que en el caso anterior, salvo que:
-  - Los cambios de nuestra rama (o `hotfix`) en `develop` no se hacen localmente, sino que se hace `push` de nuestra rama a remoto y se solicita la integración mediante `pull request` en la plataforma colaborativa, con la estrategia elegida (e.g., `merge` o `rebase`).
-  - Del mismo modo, la integración de `develop` a `main` se hace via `pull request` en la plataforma colaborativa, con la estrategia elegida (e.g., `merge --squash`).
-- Es decir, que solo se hace `push` de la rama propia y la integración se hace en remoto con `pull request`, aplicando en cada caso la estrategia que se prefiera.
+  - Los cambios de nuestra rama (o `hotfix`) en `develop` no se hacen localmente, sino que se hace `push` de nuestra rama a remoto y se solicita la integración mediante `merge request` en la plataforma colaborativa, con la estrategia elegida (e.g., `merge` o `rebase`).
+  - Del mismo modo, la integración de `develop` a `main` se hace via `merge request` en la plataforma colaborativa, con la estrategia elegida (e.g., `merge --squash`).
+- Es decir, que solo se hace `push` de la rama propia y la integración se hace en remoto con `merge request`, aplicando en cada caso la estrategia que se prefiera.
