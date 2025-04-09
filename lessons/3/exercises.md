@@ -33,6 +33,8 @@
 # Proyecto: Moby Git (Día 2) 🐋📝
 
 1. Crear un repositorio remoto privado vacío en GitLab y utilizarlo para subir el cuaderno de bitácora.
-2. Crear una rama en local a partir de `main` llamada `first-revision`, modificar alguna de las tres entradas del cuaderno de bitácora y hacer `merge` de esos cambios a `main`.
-3. Crear otra rama a partir de `first-revision` llamada `second-revision`, modificar la misma entrada del ejercicio anterior, en la misma línea, hacer `merge` a `main` y resolver el conflicto.
-4. Sincronizar todo con el repositorio en GitLab.
+2. Crear una rama en local a partir de `main` llamada `first-revision` y modificar alguna de las tres entradas del cuaderno de bitácora.
+3. Crear otra rama a partir de `main` llamada `second-revision` y modificar la misma entrada del ejercicio anterior, en la misma línea, con algo diferente a la modificación hecha en `first-revision`.
+4. Hacer `merge` de `first-revision` a `main`.
+5. Hacer `merge` de `second-revision` a `main` y resolver el conflicto.
+6. Sincronizar todo con el repositorio en GitLab.

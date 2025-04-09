@@ -46,6 +46,7 @@
 
 2. Trabajamos en nuestra rama local:
     ```
+    git checkout -b feature
     git add
     git commit -m "..."
     ```
@@ -68,9 +69,10 @@
   git push
   ```
 
-- Volvemos a nuestra rama:
+- Volvemos a nuestra rama e integramos la principal:
   ```
   git checkout feature
+  git merge main
   ```
 
   O la borramos (preferentemente):
