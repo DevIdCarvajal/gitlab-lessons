@@ -6,16 +6,16 @@
 
 ## Introducción a Pipelines en GitLab
 
-Un **pipeline** en GitLab es una secuencia de tareas de integración y despliegue continuo que se ejecutan de forma automatizada en respuesta a eventos como commits o merges. Algunas de estas tareas pueden ser compilar, probar o desplegar código a producción, entre otras.
+Un **pipeline** en GitLab es una secuencia de tareas de integración y despliegue continuo que se ejecutan de forma automatizada en respuesta a eventos como pushes o merges. Algunas de estas tareas pueden ser compilar, probar o desplegar código a producción, entre otras.
 
 ![CI/CD](ci-cd.png)
 
 ### Conceptos clave:
 
 - **Jobs**: Tareas individuales dentro del pipeline (por ejemplo, ejecutar pruebas o desplegar código).
-- **Stages**: Agrupaciones de jobs que se ejecutan en orden (por ejemplo, `build`, `test`, `deploy`).
-- **Runners**: Servidores que ejecutan los jobs del pipeline. Pueden ser locales o en la nube.
-- **gitlab-ci.yml**: Archivo donde se define la configuración del pipeline.
+- **Stages**: Agrupaciones de jobs que se ejecutan en orden (por ejemplo, `build`, `test` o `deploy`).
+- **Runners**: Servidores que ejecutan en la nube los jobs del pipeline.
+- **.gitlab-ci.yml**: Archivo donde se define la configuración del pipeline.
 
 ## Configuración básica de GitLab CI/CD
 
@@ -44,7 +44,7 @@ Para activar la integración continua en un proyecto de GitLab:
    ```bash
    git add .gitlab-ci.yml
    git commit -m "Añadir configuración básica de CI/CD"
-   git push origin main
+   git push -u origin main
    ```
 4. GitLab ejecutará el pipeline automáticamente en cada push o merge.
 

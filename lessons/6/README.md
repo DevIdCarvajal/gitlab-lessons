@@ -93,7 +93,7 @@ git reset --hard HEAD~1
 ```
 *(Esto mueve el commit a la rama correcta y elimina el de la incorrecta.)*
 
-### 3. se quiere deshacer un `git add` antes de hacer commit
+### 3. Se quiere deshacer un `git add` antes de hacer commit
 
 ```bash
 git reset HEAD <file>
